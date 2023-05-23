@@ -1,0 +1,16 @@
+.resaContainer {
+  max-width: 312px;
+  background-color: white;
+  border-radius: 4px;
+  margin: 16px;
+  height: 212px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.borderTop {
+  background-color: darkgreen;
+  width: 100%;
+  height: 6px;
+}
