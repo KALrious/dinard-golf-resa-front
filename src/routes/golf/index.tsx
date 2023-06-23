@@ -8,7 +8,7 @@ export default component$(() => {
   return (
     <div class="mt-24">
       <div class="flex gap-24 flex-col px-24 items-center">
-        <h1 class="prose-60">Dans quel golf es-tu menbre ?</h1>
+        <h1 class="prose-60">Dans quel golf êtes vous menbres ?</h1>
         <GolfList
           onClick$={() => {
             isOpen.value = true;

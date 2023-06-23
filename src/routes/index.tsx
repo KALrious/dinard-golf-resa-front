@@ -9,7 +9,7 @@ export default component$(() => {
     <div class="relative">
       <div class="absolute top-52 left-14 flex flex-col gap-6">
         <h1 class="prose-60 text-white">
-          Programme facilement à l'avance<p>Tes parties de golfs</p>
+          Programme facilement à l'avance<p>Vos parties de golfs</p>
         </h1>
         <SearchInput
           placeholder="Rechercher un Golf"

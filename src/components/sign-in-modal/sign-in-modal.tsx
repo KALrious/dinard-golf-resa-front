@@ -49,11 +49,11 @@ export default component$<Props>(({ onClose$, isOpen }) => {
             id="dialog1"
             aria-labelledby="dialog1_label"
             aria-modal="true"
-            class="relative bg-white rounded-lg shadow-lg w-[500px] h-[500px] flex flex-col opacity-100 z-20 px-8 py-4"
+            class="relative bg-white rounded-lg shadow-lg w-[552px] h-[552px] flex flex-col opacity-100 z-20 px-8 py-4"
           >
             <div class="flex flex-col items-center gap-14">
               <h2 class="prose-48 text-center">
-                Connect toi avec tes Identifiants
+                Connectez vous avec vos Identifiants
               </h2>
               <Form class="flex gap-8 flex-col w-full" onSubmit$={formSubmit}>
                 <Field name="email">
