@@ -11,6 +11,13 @@ module.exports = {
           "line-height": "72px",
         },
       },
+      48: {
+        css: {
+          "font-size": "48px",
+          "font-weight": 700,
+          "line-height": "56px",
+        },
+      },
       24: {
         css: {
           "font-size": "24px",
@@ -25,10 +32,23 @@ module.exports = {
           "line-height": "24px",
         },
       },
+      body18: {
+        css: {
+          "font-size": "18px",
+          "line-height": "28px",
+        },
+      },
+      body16: {
+        css: {
+          "font-size": "16px",
+          "line-height": "24px",
+        },
+      },
     }),
     extend: {
       colors: {
         golf: "#0B7B16",
+        golfLight: "#3F9D2F",
       },
     },
   },
