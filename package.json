@@ -23,9 +23,16 @@
   "devDependencies": {
     "@builder.io/qwik": "^1.1.1",
     "@builder.io/qwik-city": "^1.1.1",
+    "@builder.io/qwik-react": "0.5.0",
+    "@emotion/react": "11.11.0",
+    "@emotion/styled": "11.11.0",
+    "@mui/material": "5.12.3",
+    "@mui/x-data-grid": "6.3.1",
     "@tailwindcss/typography": "^0.5.9",
     "@types/eslint": "8.37.0",
     "@types/node": "^20.1.0",
+    "@types/react": "18.2.5",
+    "@types/react-dom": "18.2.4",
     "@typescript-eslint/eslint-plugin": "5.59.2",
     "@typescript-eslint/parser": "5.59.2",
     "autoprefixer": "^10.4.14",
@@ -33,6 +40,8 @@
     "eslint-plugin-qwik": "^1.1.1",
     "postcss": "^8.4.23",
     "prettier": "^2.8.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "tailwindcss": "^3.3.1",
     "typescript": "5.0.4",
     "undici": "5.22.0",
@@ -41,6 +50,7 @@
   },
   "dependencies": {
     "@modular-forms/qwik": "^0.17.1",
-    "@unpic/qwik": "^0.0.20"
+    "@unpic/qwik": "^0.0.20",
+    "react-calendar": "^4.3.0"
   }
 }
